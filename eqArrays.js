@@ -22,4 +22,4 @@ const eqArray = function(arr1, arr2) {
   } 
   return true;
 };
-console.log(assertEqual(eqArray([1,2,3], [1,2,3]), true));
+assertEqual(eqArray([1,2,3], [1,2,3]), true);
